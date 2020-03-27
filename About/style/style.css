@@ -1,0 +1,292 @@
+:root {
+    --gray: #787878;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background: #141414;
+    padding: 100px 0;
+}
+
+.footer-title {
+    font-size: 17.5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.footer-text {
+    margin-top: 27px;
+    font-size: 14.5px;
+    color: #bcbcbc;
+    line-height: 24px;
+}
+
+.footer__contact p {
+    font-size: 14.5px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans';
+    text-align: left;
+
+}
+
+.footer__contact a {
+    font-family: 'Work Sans';
+    text-decoration: none;
+    font-size: 14.5px;
+    color: #bcbcbc;
+}
+.footer__contact a:hover{
+    color: white;
+}
+.footer-link {
+
+    text-decoration: none;
+    font-size: 14.5px;
+    color: #bcbcbc;
+}
+
+.footer-li {
+    list-style: none;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer__contact  p{
+    text-align: start;
+    }
+
+    .fas{
+        font-size: 35px;
+        color: green;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+    
+    .nav__lists{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+    .nav__list{
+        list-style: none;
+        text-transform: uppercase;
+        margin-left: 30px;
+    
+    }
+    li{
+        list-style: none;
+    }
+    .nav__link:hover{
+       text-decoration: none;
+        color: var(--green);
+        
+      
+    }
+    .nav__link{
+        list-style: none;
+        color: var(--black);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.main__section {
+    padding: 115px 0 110px 0;
+    background: #323232;
+}
+
+.main-title {
+    color: white;
+    font-size: 62px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.main-text {
+    color: white;
+    font-family: 'Nunito Sans';
+    font-size: 23px;
+
+}
+
+
+
+
+.main__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.img{
+    width: 50%;
+    
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.main__box-text {
+   
+    background: #f5f5f5;
+
+}
+
+.text {
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 120px 0;
+}
+.text img{
+    margin-top: 30px;
+}
+.text-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text__text{
+    font-family: var(--Nunito);
+    color: #787878;
+    line-height: 24px;
+    margin-top: 35px;
+}
+
+
+.main__box_item {
+    margin-top: 40px;
+}
+
+
+.main__items {
+    padding: 60px 0 ;
+    background: #007d2f;
+    justify-content: space-around;
+    
+}
+
+.main__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+    margin: 15px 0;
+}
+.item-num{
+    font-size: 18.5px;
+    font-family: 'Montserrat';
+
+}
+.adm{
+    font-size: 12.3px;
+    text-transform: uppercase;
+}
+.section__project{
+    padding: 100px 0 100px 0;
+}
+.project-title{
+    text-align: center;
+    color: #1d1d1d ;
+    font-size: 30px;
+        font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.project-text{
+    text-align: center;
+    font-family: 'Nunito Sans';
+    color: #787878;
+    margin: 0em;
+    
+    
+}
+.btn{
+   transition: 0.5s;
+    height: 55px;
+    width: 160px;
+    background: #007d2f;
+    color: white;
+    border-radius: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+}
+.btn:hover{
+    color: #007d2f;
+    background: white;
+    border: 1px #007d2f solid;
+}
+
+@media(max-width:1110px) {
+
+    .footer__contact p {
+        text-align: end;
+    }
+.img{
+    width: 50%;
+}
+}
+
+@media(max-width:991px) {
+    .img{
+        width: 100vw;
+        
+        
+    }
+}
+
+
+@media(max-width: 576px) {
+
+    .footer__contact p {
+        text-align: center;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+    
+.text {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 90px 0;
+}
+}
+
+@media(max-width:350px) {
+    .logo {
+        margin: 20px auto;
+    }
+
+    .nav {
+        height: 150px;
+    }
+}
